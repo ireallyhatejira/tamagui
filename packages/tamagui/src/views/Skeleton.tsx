@@ -1,5 +1,4 @@
 import { GetProps, TamaguiElement, styled } from '@tamagui/core'
-import { LinearGradient, LinearGradientProps } from '@tamagui/linear-gradient'
 import { YStack } from '@tamagui/stacks'
 import { forwardRef } from 'react'
 
@@ -25,15 +24,6 @@ export const Skeleton = SkeletonFrame.extractable(
   })
 )
 
-export const SkeletonShine = (props: LinearGradientProps) => {
-  return (
-    <LinearGradient
-      position="absolute"
-      top={0}
-      bottom={0}
-      width="25%"
-      colors={['$background', '$color']}
-      {...props}
-    />
-  )
+export const SkeletonShine = (props) => {
+  return null
 }

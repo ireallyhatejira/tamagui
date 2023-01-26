@@ -12,7 +12,6 @@ export * from '@tamagui/font-size';
 export * from '@tamagui/helpers-tamagui';
 export * from '@tamagui/image';
 export * from '@tamagui/label';
-export * from '@tamagui/linear-gradient';
 export * from '@tamagui/list-item';
 export * from '@tamagui/popover';
 export * from '@tamagui/popper';

@@ -272,7 +272,6 @@ export const withTamagui = (tamaguiOptions: WithTamaguiProps) => {
               fullPath === 'tamagui' ||
               fullPath.startsWith('@tamagui') ||
               fullPath === 'react-native-safe-area-context' ||
-              fullPath === 'expo-linear-gradient' ||
               fullPath.startsWith('@react-navigation') ||
               fullPath.startsWith('@gorhom')
             ) {

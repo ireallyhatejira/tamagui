@@ -14,7 +14,7 @@ export function tamaguiPlugin(
     ...new Set([...options.components, 'tamagui', '@tamagui/core']),
   ]
   const noExternalSSR = new RegExp(
-    `${components.join('|')}|react-native|expo-linear-gradient`,
+    `${components.join('|')}|react-native`,
     'ig',
   )
 

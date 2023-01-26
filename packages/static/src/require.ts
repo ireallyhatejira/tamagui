@@ -28,7 +28,6 @@ export function registerRequire() {
     if (
       path === '@gorhom/bottom-sheet' ||
       path.startsWith('react-native-reanimated') ||
-      path === 'expo-linear-gradient' ||
       path === '@expo/vector-icons'
     ) {
       return proxyWorm
